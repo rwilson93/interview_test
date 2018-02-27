@@ -1,0 +1,314 @@
+@import "_bootstrap.scss";
+
+//Custom popup Container Styling
+.shadowOverlay{
+	cursor: pointer;
+  opacity: 0.8;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 8010;
+  background: #000;
+  width: 100%;
+  height: 100%; 
+}
+.popUpContainer{
+	max-width: 630px;
+	width: 94%;
+	position: absolute;		
+	margin-left: auto;
+	margin-right: auto;
+	top: 10%;
+	left: 0;
+	right: 0;
+	z-index: 8020;
+	background-color:white;
+}
+.popUpClose{
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 25px;
+  height: 27px;
+  cursor: pointer;
+  z-index: 8040;
+  background-image: url("../images/close.png");
+}
+//END Custom popup Container Styling
+
+#lbx{
+	.container{
+		max-width: 630px;
+		overflow-x: hidden;
+		background-color: white;
+		background-size: 100%;
+		background-position: bottom left;
+		background-repeat: no-repeat;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	// div{
+	// 	max-width: 100%;
+	// }
+	img{
+		width:100%;
+		max-width: 100%;
+		display: block;
+	}
+	h3{
+		color: #efcd24;
+		font-family: Arial, 'Sans-Serif';
+		text-transform: uppercase;
+		margin: 10px 0 0;
+	}
+	small{
+		font-size: 84%;
+		color: #D42B5F;
+		font-style: italic;
+	}
+	#loading_div{
+	    z-index: 99999;
+		width: 100%;
+		height: 100%;
+		opacity: 0.5;
+		background-color: black;
+		display: none;
+		position: absolute;
+	}
+	#loading_image{
+		width: 32px;
+		display: block;
+		position: relative;
+		left: 46%;
+		top: 50%;
+
+	}
+	#limited_offer_form{
+		padding-left: 0px; 
+		margin-top: 8px;
+	}
+	#cyber_mon_form{
+		padding-left: 0px; 
+		margin-top: 8px;
+	}
+	.strip_padding{
+		padding: 0px;
+	}
+	.bottom_padder{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	img.text_banner{
+		max-width: 218px;
+	}
+	.limited_offer_banner{
+	    margin: 20px 0px 0px;
+	}
+	.cyber_mon_banner{
+	    margin: 20px 0px 0px;
+	}
+	strong.promo_code{
+		font-family: Arial;
+		line-height: 29px;
+    font-size: 14.5px;
+	}
+
+	#limited_offer_description{
+		color: black;
+		font-size: 17px;
+		font-weight: bold;
+		font-family: 'Arial';
+		line-height: 20px;
+		margin: 0 0px 10px 0;
+	}
+	#dollars_off_banner{
+		margin: 34px 0px 24px;
+	}
+	#banner_art{
+		margin: 0;
+		width: 100%;
+		max-width: 100%;
+	}
+	#first_name_label{
+		margin: 6px 4px 2px;
+		max-width: 71px;
+	}
+	#last_name_label{
+		margin: 6.5px 4px 3px;
+		max-width: 67px;
+	}
+	#email_label{
+		margin: 6px 4px 3px;
+		max-width: 100px;
+	}
+	#required{
+		max-width: 107px;
+	}
+	.promo_block{
+		margin: 5px 0px;
+	}
+	#footer p{
+		display: inline-block;
+		margin-bottom: 0px;
+		vertical-align: middle;
+		font-size: 9px;
+		font-family: Arial;
+		font-weight: normal;
+		color: black;
+		text-shadow: none;
+	}
+	#footer_logo{
+		float: right;
+		max-width: 160px;
+	}
+	.form-control{
+
+		border-radius: 0px;
+		// -webkit-box-shadow: inset 1px 0px 0px rgba(0, 0, 0, 0.075);
+		// box-shadow: inset 1px 0px 0px rgba(0, 0, 0, 0.075);
+		background-color: #F6F6F6;
+		border: 0px;
+	}
+	.webform-component{
+		margin: 0 0 10px;
+	}
+	.webform-component--first-name{
+		padding-right: 3px;
+	}
+	.webform-component--last-name{
+		padding-left: 3px;
+	}
+  .btn-primary {
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    border-color: transparent;
+    margin: 22px 0 0;
+    display: block;
+  }
+  .join-button{
+  	width: 175px;
+  	height: 45px;
+  	max-width: 100%;
+  	margin: 38px auto 0;
+  	display: block;
+  	background-image: url("../images/join_today_button.png");  	
+  	background-size: 175px auto;
+  }
+	.webform-component--tlc-source{
+		display: none;
+	}
+	#footer{
+    margin: 0;
+    padding: 0 41px 0;
+	}
+	#footer a{
+		color: black;
+	}
+	#footerTwo{
+    margin: 10px 0 10px;
+	}
+	#footer_left{
+		padding-top: 46px;
+	}
+	.footer_contents{
+		position: absolute;
+		bottom: 4px;
+		width: 100%;
+	}
+	.copyright{
+		display: inline;
+		width: 100%;
+		max-width: 133px;
+	}
+	.privacy_policy{
+		font-family: "Lucida Sans","Arial","Helvetica";
+		font-size: 9px;
+		color: black;
+		text-decoration: underline;
+
+	}
+	input.textInput{
+		font-family: Arial;
+		display: block;
+    width: 100%;
+    height: 38px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    background-color: #F6F6F6;;
+    background-image: none;
+    border: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	}
+	a.fancybox-close {
+		background-image: url("https://imager.2dialog.com/images/wpz/002/15/0/fancybox_sprite.53fb820ff2f3628666.png");
+	}
+	.submit_div{
+		text-align: center;
+	}
+	span.label_font{
+		font-size: 10px;
+		color: black;
+		font-weight: 600;
+		font-family: 'Arial';
+    font-size: 12px;
+    color: black;
+    font-weight: 600;
+	}
+	span.offer_exp{
+    font-family: 'Arial';
+    font-size: 10px;
+    color: black;
+    font-weight: 600; 
+  }
+	.bgColor{
+		background-color: #468ac9;
+	}
+	.border-image{
+		display: block; width: 100%; height: auto;
+	}
+	@media (max-width: 900px) {
+	  .join-button{
+	  	width: 175px;
+	  	height: 45px;
+	  	max-width: 100%;
+	  	margin: 0 auto 0;
+	  	display: block;
+	  	background-image: url("../images/join_today_button.png");  	
+	  	background-size: 175px auto;
+	  }		
+	  .main_title {
+  	  font-size: 19px;
+    	font-weight: bolder; 
+    }		
+  	.webform-component--first-name{
+			padding-right: 0px;
+		}
+		.webform-component--last-name{
+			padding-left: 0px;
+		}
+  	#footer_left{
+			padding: 14px 0 0 0;
+		}
+		#limited_offer_form{
+			padding-left: 15px; 
+		}
+		#cyber_mon_form{
+			padding-left: 15px; 
+		}
+		.bug_banner{
+			display: none;
+		}
+  } 
+}
