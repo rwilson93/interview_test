@@ -9,4 +9,4 @@ TLC Interview Test
 
 4: Add the created form from the previous excercise to the lightbox javascript code to have it display as a popup when the index.html is viewed in a browser.
 
-5: Provide a link to the fork that was created once all items are complete.
+5: Provide a publically accessible link to the fork that was created once all items are complete.
